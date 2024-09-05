@@ -11,7 +11,7 @@ All users need to acquire a valid license to use this software. Software will us
 
 - Download ExtractMAC.bat to your Windows machine.
 - Double click the ExtractMAC.bat, it will create a text file on your current working folder.
-- Send the text file or all MAC addresses within to traction.power@networkrail.co.uk with your name, your position and the purpose of use of this package.
+- Send the text file or all MAC addresses information to traction.power@networkrail.co.uk with your name, your role and the purpose of use of this package.
 - You will receive an email reply when your license been granted and you can continue to use the software.
 
 Exceptions:
@@ -27,6 +27,6 @@ Exceptions:
 
 
 ## Support
-For any enquires, please send an email to: traction.power@networkrail.co.uk
+For any enquires, please send an email to: traction.power@networkrail.co.uk  
 Last update: Sep / 2024
 
