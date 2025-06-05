@@ -17,19 +17,18 @@ def internet_check():
     try:
         # Send a HEAD request using requests with a timeout of 5 seconds
         response = urllib.request.urlopen("https://pypi.org/", timeout=5)
-        print("Internet Connection Built Succesful")
+        print("INTERNET CONNECTION BUILT SUCCESFULLY...")
         return True
 
     except urllib.error.URLError as e:
         os.system("")
         print(f"{Colors.YELLOW}ERROR:{e}")
-        print(f"ERROR:INTERNET CONNECTION POOL. DISCONNECT NR CORP NETWORK")
-        print(f"ERROR:CHECK YOUR INTERNET CONNECTION{Colors.RESET}")
+        print(f"ERROR:INTERNET CONNECTION POOL. CHECK YOUR INTERNET CONNECTION.{Colors.RESET}")
         return False
     
     except Exception as e:
         os.system("")
-        print(f"{Colors.YELLOW}ERROR: Unexpected ERROR - {e}{Colors.RESET}")
+        print(f"{Colors.YELLOW}ERROR: UNEXPECTED CONNECTION ERROR: {e}{Colors.RESET}")
         return False
 
 def get_latest_version(package_name):
@@ -46,13 +45,12 @@ def get_latest_version(package_name):
     except urllib.error.URLError as e:
         os.system("")
         print(f"{Colors.YELLOW}ERROR:{e}")
-        print("ERROR:INTERNET CONNECTION POOL. DISCONNECT NR CORP NETWORK")
-        print(f"ERROR:CHECK YOUR INTERNET CONNECTION{Colors.RESET}")
+        print(f"ERROR:INTERNET CONNECTION POOL. CHECK YOUR INTERNET CONNECTION.{Colors.RESET}")
         return False
     
     except Exception as e:
         os.system("")
-        print(f"{Colors.YELLOW}ERROR: Unexpected ERROR - {e}{Colors.RESET}")
+        print(f"{Colors.YELLOW}ERROR: UNEXPECTED CONNECTION ERROR: {e}{Colors.RESET}")
         return False
 
 
@@ -63,6 +61,8 @@ def install_package(package_name):
         os.system("")
         print(f"{Colors.RED}ERROR: Error occurred while installing {package_name}: {e}{Colors.RESET}")
 
+def version_tuple(version_string):
+    return tuple(map(int,version_string.split(".")))
 
 def check_and_import_package(package_name):
 
@@ -72,12 +72,12 @@ def check_and_import_package(package_name):
         spec = importlib.util.find_spec(package_name)
         if spec is None:
             os.system("")
-            print(f"{Colors.RED}{package_name} is not installed. Please check internet connection...")
+            print(f"{Colors.RED}ERROR: {package_name} IS NOT INSTALLED.")
             print(f"ERROR: CHECK CONNECTION AND REQUIRE RESTART THE PROCESS...{Colors.RESET}")
             return False
         else:
             installed_version = importlib.metadata.version(package_name)
-            print(f"Installed version of {package_name}: {installed_version}")
+            print(f"INSTALLED VERSION OF {package_name}: {installed_version}")
             return True
     
     else:
@@ -85,22 +85,22 @@ def check_and_import_package(package_name):
             # Check if the package is installed
             spec = importlib.util.find_spec(package_name)
             if spec is None:
-                print(f"{package_name} is not installed. Installing...")
+                print(f"{package_name} IS NOT INSTALLED. INSTALLING BEGIN...")
                 install_package(package_name)
             
             # Check if the package is installed
             installed_version = importlib.metadata.version(package_name)
-            print(f"Installed version of {package_name}: {installed_version}")
+            print(f"INSTALLED VERSION OF {package_name}: {installed_version}")
 
             # Check the latest version available
             latest_version = get_latest_version(package_name)
             if latest_version == False:
                 return True
             else:
-                print(f"Latest {package_name} version: {latest_version}")
+                print(f"LATEST VERSION OF {package_name}: {latest_version}")
 
-            if latest_version > installed_version:
-                print(f"Updating {package_name} to the latest version...")
+            if version_tuple(latest_version) > version_tuple(installed_version):
+                print(f"UPDATING {package_name} TO THE LATEST VERSION. UPGRADING BEGIN...")
                 install_package(package_name)
 
                 time.sleep(10)  # Wait for 10 seconds after installation
@@ -108,14 +108,14 @@ def check_and_import_package(package_name):
                 installed_version = importlib.metadata.version(package_name)
                 if latest_version > installed_version:
                     os.system("")
-                    print(f"{Colors.RED}ERROR IN INSTALLATION: SOURCE CODE MANAGEMENT ISSUE")
+                    print(f"{Colors.RED}ERROR IN INSTALLATION: SOURCE CODE MANAGEMENT ISSUE.")
                     print(f"PLEASE REQUIRE RESTART THE PROCESS...{Colors.RESET}")
                     return False
                 else:
                     return True
             else:
                 os.system("")
-                print(f"{Colors.GREEN}{package_name} is already up-to-date.{Colors.RESET}")
+                print(f"{Colors.GREEN}{package_name} IS UP-TO-DATE.{Colors.RESET}")
                 return True
             
         except Exception as e:
@@ -127,11 +127,11 @@ def check_and_import_package(package_name):
 # Example usage
 if __name__ == "__main__":
     if check_and_import_package("vision_oslo_extension"):
-        print()
+        print("\nPACKAGE CHECKING COMPLETED. ENTERING APPLICATION...\n")
         from vision_oslo_extension import master
         master.main()
     else:
         os.system("")
-        input(f"{Colors.RED}ERROR: Please check info above.{Colors.RESET}")
+        input(f"{Colors.RED}ERROR: CHECK ERROR INFORMATION ABOVE.{Colors.RESET}")
 
     
