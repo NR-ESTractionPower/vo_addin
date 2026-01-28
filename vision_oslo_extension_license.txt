@@ -48,16 +48,7 @@ F8-75-A4-69-18-EF
 1C-1B-B5-F2-6F-A2
 1C-1B-B5-F2-6F-A6
 00-15-5D-DD-B2-30
-//NR Edmund F Fowler edmund.fentonfowler@networkrail.co.uk
-48-2A-E3-46-A0-31
-58-A0-23-1E-B2-5D
-5A-A0-23-1E-B2-5C
-88-9D-99-59-52-50
-00-FF-39-A7-96-7A
-58-A0-23-1E-B2-5C
-58-A0-23-1E-B2-60
-00-15-5D-5A-DE-36
-//NR Kaitlyn Mair kaitlyn.mair@networkrail.co.uk
+//NR Kaitlyn Mair kaitlyn.mair@networkrail.co.uk --> to new starter from Feb 2026
 00-50-B6-F0-C7-BD
 00-72-EE-75-2E-A3
 02-72-EE-75-2E-A2
@@ -73,14 +64,6 @@ F8-75-A4-69-18-EF
 90-99-8D-5D-41-47
 18-26-49-29-7B-91
 00-15-5D-73-CB-87
-//NR Adeeb Noor adeeb.noor@networkrail.co.uk
-48-2A-E3-22-A4-0A
-1C-1B-B5-DC-6D-9D
-1E-1B-B5-DC-6D-9C
-90-89-B7-5D-52-56
-1C-1B-B5-DC-6D-9C
-1C-1B-B5-DC-6D-A0
-00-15-5D-76-25-35
 // NR JY test machine Jieming.Ye@networkrail.co.uk
 00-2B-67-1B-30-FF
 A0-D0-5B-04-68-73
@@ -105,14 +88,6 @@ A0-D0-5B-04-68-73
 88-9D-8C-43-45-5D
 00-15-5D-74-94-6E
 00-15-5D-CD-4B-0F
-// NR Berkay Alic berkay.alic@networkrail.co.uk
-00-15-5D-49-5C-45
-70-1A-B8-64-FB-E6
-72-1A-B8-64-FB-E5
-90-85-8D-5D-5B-5A
-00-FF-6E-52-4D-17
-70-1A-B8-64-FB-E5
-70-1A-B8-64-FB-E9
 // NR Andrea Nava Andrea.Nava@networkrail.co.uk
 F8-75-A4-FD-4C-A9
 00-15-5D-05-9D-F4
@@ -151,6 +126,13 @@ B4-99-94-57-53-5B
 00-A0-C6-00-00-01
 00-72-EE-2A-CE-A7
 00-72-EE-2A-CE-AB
+// NR George Edwards George.Edwards@networkrail.co.uk
+D4-F3-2D-CD-5B-3C
+D6-F3-2D-CD-5B-3B
+00-FF-EF-09-2B-FF
+D4-F3-2D-CD-5B-3B
+D4-F3-2D-CD-5B-3F
+9C-8D-84-57-5D-5D
+00-15-5D-F0-3A-48
 //UUID
 238a9836-9077-4a47-8668-b1fc27189903
-
