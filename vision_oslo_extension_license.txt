@@ -48,7 +48,7 @@ F8-75-A4-69-18-EF
 1C-1B-B5-F2-6F-A2
 1C-1B-B5-F2-6F-A6
 00-15-5D-DD-B2-30
-//NR Kaitlyn Mair kaitlyn.mair@networkrail.co.uk --> to new starter from Feb 2026
+//NR Gordon Ma GordonSza.Ma@networkrail.co.uk
 00-50-B6-F0-C7-BD
 00-72-EE-75-2E-A3
 02-72-EE-75-2E-A2
@@ -105,14 +105,6 @@ B8-9A-2A-2B-30-8B
 8C-17-59-72-A5-42
 8C-17-59-72-A5-46
 90-91-86-5D-59-5A
-// NR Kush Kotecha Kush.Kotecha@networkrail.co.uk
-D4-F3-2D-CC-B8-35
-D6-F3-2D-CC-B8-34
-00-FF-82-EF-C7-8E
-D4-F3-2D-CC-B8-34
-D4-F3-2D-CC-B8-38
-B4-99-94-57-53-5B
-00-15-5D-13-C3-30
 //NR Jieming Ye Thinkpad P16 Jieming.Ye@networkrail.co.uk
 80-6D-97-44-39-24
 90-10-57-08-D7-E9
@@ -127,12 +119,11 @@ B4-99-94-57-53-5B
 00-72-EE-2A-CE-A7
 00-72-EE-2A-CE-AB
 // NR George Edwards George.Edwards@networkrail.co.uk
-D4-F3-2D-CD-5B-3C
-D6-F3-2D-CD-5B-3B
-00-FF-EF-09-2B-FF
-D4-F3-2D-CD-5B-3B
-D4-F3-2D-CD-5B-3F
-9C-8D-84-57-5D-5D
-00-15-5D-F0-3A-48
+C4-0F-08-63-04-30
+C6-0F-08-63-04-2F
+C4-0F-08-63-04-2F
+C4-0F-08-63-04-33
+90-9D-80-55-56-53
 //UUID
 238a9836-9077-4a47-8668-b1fc27189903
+
