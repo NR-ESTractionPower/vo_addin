@@ -6,6 +6,9 @@ To use the tool, download "oslo_extension.py" and launch to get started.
 VISION-OSLO  
 Python
 
+### NOTICE:
+For security purpose, the manual of this application is not public available. Please contact us via the email.
+
 ## License process
 All users need to acquire a valid license to use this software. Software will use machines MAC address to generate a unique key. The process is as follows:
 
@@ -28,5 +31,5 @@ Exceptions:
 
 ## Support
 For any enquires, please send an email to: traction.power@networkrail.co.uk  
-Last update: Sep / 2024
+Last update: May / 2026
 
