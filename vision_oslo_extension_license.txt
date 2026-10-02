@@ -73,12 +73,11 @@ A0-D0-5B-04-68-73
 74-D8-3E-3A-3C-4D
 74-D8-3E-3A-3C-51
 // NR Petru Radu petru.radu@networkrail.co.uk
-70-1A-B8-65-1B-FD
-72-1A-B8-65-1B-FC
-98-81-99-5D-55-58
-00-FF-74-0D-47-CF
-70-1A-B8-65-1B-FC
-00-15-5D-6E-77-79
+B8-F7-75-F9-1B-2D
+BA-F7-75-F9-1B-2C
+00-A0-C6-00-00-01
+B8-F7-75-F9-1B-2C
+B8-F7-75-F9-1B-30
 // NR George Wakely george.wakely@networkrail.co.uk
 10-91-D1-02-CA-39
 12-91-D1-02-CA-38
